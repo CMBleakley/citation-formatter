@@ -1,0 +1,29 @@
+{
+  "name": "la-citation-formatter",
+  "version": "0.0.1",
+  "description": "cleanup the raw CSV citation data",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmbleakley/la-citations"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "cmbleakley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmbleakley/la-citations"
+  },
+  "homepage": "https://github.com/cmbleakley/la-citations",
+  "dependencies": {
+    "proj4": "2.3.6",
+    "csv": "0.4.2",
+    "minimist": "1.1.1",
+    "moment": "2.10.3"
+   }
+}

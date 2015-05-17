@@ -1,14 +1,22 @@
-### Documentation for processing LA city parking citation data
+### CitationFormatter
 
+A small cli for correcting and formatting [LA parking citation data](https://data.lacity.org/dataset/Parking-Citations/t4h6-r362)
 
-#### Converting latitude and longitude to EPSG:4326 / WGS84 for web-mapping
+###install
 
-##### from the command line
+```sh
+npm install
+```
 
-- install [gdal](http://www.gdal.org/)
-- ogr2ogr
-- ``` ```
+###usage
 
-##### postgres import
-- ``` ```
+```sh
+# from the install directory
+node index.js --input=[CSV]
+```
 
+###options
+```sh
+--help : show options and usage
+--input : raw csv citation data from data.lacity.org
+```
