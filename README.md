@@ -1,6 +1,6 @@
 ### CitationFormatter
 
-A small cli for correcting and formatting [LA parking citation data](https://data.lacity.org/dataset/Parking-Citations/t4h6-r362)
+A small cli tool for correcting and formatting [LA parking citation data](https://data.lacity.org/dataset/Parking-Citations/t4h6-r362)
 
 ###install
 
